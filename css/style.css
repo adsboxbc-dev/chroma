@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 .card-title {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #231f1d;
   margin-bottom: 6px;
@@ -145,7 +145,7 @@ nav a:hover {
 
 .saved h2 {
   margin: 0 0 8px;
-  font-size: 28px;
+  font-size: 18px;
 }
 
 #saved-list {
@@ -184,7 +184,7 @@ nav a:hover {
 }
 
 .poem-label {
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #8c827b;
