@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>-BookAppointment</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="pagecontainer">
+    <!-- Brand Header -->
+    <header class="brand-header">
+      <div class="brand-title">Chroma Creativity Shop</div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav"  aria-label="Main">
+      <a href="index.html">Services &amp; prices</a>
+      <a href="book.html">Book Appointment</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Hero Heading -->
+      <section class="hero">
+      <h1>Book An Appointment</h1>
+      <p>Tell us when to expect you. Saved finishes are listed on the note we show back.</p>
+    </section>
+
+    <!-- Form, (Main info of this page) -->
+    <main>
+      <section id="book" class="panel">
+        <form id="booking-form">
+          <label>
+            Name
+            <input type="text" id="guest-name" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Date
+            <input type="date" id="guest-date" name="date" required>
+          </label>
+          <button type="submit">Request appointment</button>
+        </form>
+        <p id="booking-message" class="form-message" role="status"></p>
+      </section>
+    </main>
+  </div>
+
+    <!-- Run JS to show the calender and submit Form related Logic & Action -->
+  <script src="js/script.js"></script>
+</body>
+</html>

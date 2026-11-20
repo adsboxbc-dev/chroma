@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chroma Creativity Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="pagecontainer">
+    <!-- Brand Header -->
+    <header class="brand-header">
+      <div class="brand-title">Chroma Creativity Shop</div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Services &amp; prices</a>
+      <a href="book.html">Book Appointment</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Hero Heading -->
+    <section class="hero">
+      <h1>The Art of the Gesture</h1>
+      <p>Three finishes to save, compare and bring to your nail appointment.</p>
+    </section>
+
+    <!-- Nail Finishes Grid -->
+    <main>
+    <section class="gallery-grid" id="Cards">
+      <div class="cards">
+      <article class="card">
+        <img class="card-image" src="images/mirror silver.png" alt="Mirror silver nail finish">
+        <p class="card-tag">01 / BOLD &amp; REFLECTIVE</p>
+        <h2 class="card-title">Mirror silver, $80</h2>
+        <p class="card-desc">A liquid-metal finish on a soft almond shape.</p>
+        <button type="button" class="save" data-id="silver" data-name="Mirror silver" data-price="80">
+          Save this finish
+        </button>
+      </article>
+
+      <article class="card">
+        <img class="card-image" src="images/glazed pearl.png" alt="Glazed pearl nail finish">
+        <p class="card-tag">02 / SOFT &amp; LUMINOUS</p>
+        <h2 class="card-title">Glazed pearl, $80</h2>
+        <p class="card-desc">Sheer milky pink with a pearly chrome glow.</p>
+        <button type="button" class="save" data-id="pearl" data-name="Glazed pearl" data-price="80">
+          Save this finish
+        </button>
+      </article>
+      
+      <article class="card">
+        <img class="card-image" src="images/rose chrome.png" alt="Rose chrome nail finish">
+        <p class="card-tag">03 / WARM &amp; GLOSSY</p>
+        <h2 class="card-title">Rose chrome, $80 </h2>
+        <p class="card-desc">A rosy metallic sheen with a rounded tip.</p>
+        <button type="button" class="save" data-id="rose" data-name="Rose chrome" data-price="80">
+         Save this finish
+        </button>
+      </article>
+      </div>
+    </section>
+
+  <!-- Javascript Save Action-->
+  <section class="saved" aria-labelledby="saved-title">
+    <h2 id="saved-title">Saved for your appointment</h2>
+    <p id="saved-message">Save a finish above. Save two or more to compare them.</p>
+    <ul id="saved-list"></ul>
+    <button type="button" id="clear-saved" hidden>Clear saved finishes</button>
+  </section>
+
+    <!-- Poem Footer Block -->
+    <section class="poem-section">
+      <div class="poem-label">BRING THE FINISH YOU LOVE</div>
+      <p class="poem-text">
+        A fingertip is never just a fingertip—<br>
+        it is a canvas, curved and luminous,<br>
+        waiting for the weight of pigment,<br>
+        the quiet architecture of a sculpted wave.<br>
+        Here, color does not merely sit; it speaks.<br>
+        Cobalt bleeds into molten gold,<br>
+        translucent blush catches the afternoon sun,<br>
+        and tiny reliefs rise like miniature landscapes<br>
+        built to move with every turn of the hand.
+      </p>
+    </section>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
